@@ -79,9 +79,11 @@ private-assistant/
 
 1. Clone the repository:
 ```bash
-git clone https://github.com/your-username/private-assistant.gitOpen index.html in a web browser
+git clone https://github.com/your-username/private-assistant.git
 
-For local development, use a local server to avoid CORS issues
+2.Open index.html in a web browser
+
+3.For local development, use a local server to avoid CORS issues
 
 🌐 API Configuration
 The application uses the following APIs:
