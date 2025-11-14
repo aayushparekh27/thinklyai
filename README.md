@@ -35,7 +35,6 @@ GNews API
 Features: Web Speech API, Local Storage
 
 📁 Project Structure
-text
 private-assistant/
 ├── index.html          # Main HTML file
 ├── style.css           # Styling and responsive design
@@ -44,6 +43,7 @@ private-assistant/
 │   ├── images/
 │   └── icons/
 └── README.md           # Project documentation
+
 🎯 Key Functionalities
 AI Chat
 Intelligent conversations using Google Gemini AI
@@ -97,17 +97,14 @@ Theme Toggle: Dark/Light mode switching
 Smooth Animations: CSS transitions and keyframes
 
 🔧 Setup Instructions
-Clone the repository:
-
-bash
+1.Clone the repository:
 git clone https://github.com/your-username/private-assistant.git
-Navigate to the project directory:
 
-bash
+2.Navigate to the project directory:
 cd private-assistant
-Open index.html in a web browser
 
-For local development, use a local server to avoid CORS issues
+3.Open index.html in a web browser
+4.For local development, use a local server to avoid CORS issues
 
 🌐 API Configuration
 The application uses the following APIs:
@@ -156,4 +153,3 @@ GNews for news headlines
 
 Netlify for hosting
 
-Note: The live demo link is included in the README. Make sure to replace your-username in the clone URL with your actual GitHub username if you plan to host this repository
