@@ -25,9 +25,9 @@ document.addEventListener("DOMContentLoaded", () => {
   const runSummary = document.getElementById("run-summary");
   const closeSummary = document.getElementById("close-summary");
 
-  const GEMINI_API_KEY = "AIzaSyAXk5gnPARUtzmqjXKBLQk7GdaxMEiIdKE";
-  const WEATHER_API_KEY = "62e8deeca27956d8bd22df2feaa9d6f1";
-  const NEWS_API_KEY = "ba6dec7385ca5df45362176d54b3fb54";
+  const GEMINI_API_KEY = "Your Gemini API";
+  const WEATHER_API_KEY = "Your Weather API";
+  const NEWS_API_KEY = "your News API";
 
   // Memory reset on close
   let allChats = [];
@@ -254,4 +254,5 @@ document.addEventListener("DOMContentLoaded", () => {
     document.body.classList.toggle("dark");
     themeBtn.textContent = document.body.classList.contains("dark") ? "☀️ Light" : "🌙 Dark";
   }
+
 });
