@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Private Assistant</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- ⚡ Loading Screen -->
+  <div id="loader" class="loader-screen">
+    <div class="loader-logo">🧠</div>
+    <h2 class="loader-text">Loading Private Assistant...</h2>
+  </div>
+
+  <div class="app-container hidden">
+    <!-- 🧭 Sidebar -->
+    <aside class="sidebar">
+      <div class="logo">🧠 Private Assistant</div>
+      <button id="new-chat">+ New Chat</button>
+      <div id="chat-list" class="chat-list"></div>
+      <div class="sidebar-footer">
+        <button id="toggle-theme">🌙 Dark</button>
+      </div>
+    </aside>
+
+    <!-- 💬 Chat Area -->
+    <main class="chat-area">
+      <header class="chat-header">
+        <h1 id="chat-title">Private Assistant</h1>
+        <div class="header-actions">
+          <button id="export-chat">📦 Export</button>
+          <button id="delete-chat">🗑️ Delete</button>
+        </div>
+      </header>
+
+      <div id="chat-box" class="chat-box"></div>
+
+      <footer class="input-area">
+        <input id="user-input" type="text" placeholder="Message your Private Assistant..." />
+        <button id="send-btn">➤</button>
+        <button id="mic-btn">🎤</button>
+        <button id="summarize-btn">📝</button>
+      </footer>
+    </main>
+  </div>
+
+  <!-- ✨ Summarizer Modal -->
+  <div id="summarize-modal" class="modal hidden">
+    <div class="modal-content">
+      <h2>📝 Summarize Text</h2>
+      <textarea id="summary-input" placeholder="Paste your text here..."></textarea>
+      <div class="modal-actions">
+        <button id="run-summary">Summarize</button>
+        <button id="close-summary">Cancel</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
