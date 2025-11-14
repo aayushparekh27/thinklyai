@@ -77,9 +77,7 @@ private-assistant/
 
 ## 🔧 Setup Instructions
 
-1. Clone the repository:
-```bash
-git clone https://github.com/your-username/private-assistant.git
+1.git clone https://github.com/your-username/private-assistant.git
 
 2.Open index.html in a web browser
 
